@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        system: [ x86_64-linux, aarch64-linux ]
+        system: [ x86_64-linux, armhf-linux, aarch64-linux ]
 
     steps:
 
