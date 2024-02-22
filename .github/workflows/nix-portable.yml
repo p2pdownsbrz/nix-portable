@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        system: [ x86_64-linux, armhf-linux, aarch64-linux ]
+        system: [ x86_64-linux, aarch64-linux, armv7-linux ]
 
     steps:
 
@@ -105,7 +105,7 @@ jobs:
   #   strategy:
   #     fail-fast: false
   #     matrix:
-  #       qemu_os: [ arch, centos7, debian, fedora, nixos, ubuntu, debian-armhf, debian-aarch64 ]
+  #       qemu_os: [ arch, centos7, debian, fedora, nixos, ubuntu, debian-aarch64, debian-armhf ]
   #   steps:
 
   #   - uses: actions/checkout@v4
